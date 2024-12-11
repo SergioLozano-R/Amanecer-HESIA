@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">Amanecer-HESIA</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Quienes somos</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Equipo</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contacto</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">Amanecer</span> HESIA</span>
+    </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">Quienes somos</h3>
+    <p>La Fundación Amanecer Hesia nació con un propósito claro: apoyar a adolescentes y jóvenes que se sienten rechazados por el sistema y la sociedad. Inspirada en una idea de justicia y solidaridad que surgió en 1943, esta iniciativa fue retomada por un grupo de estudiantes de Educación Social que decidieron crear un espacio donde estos jóvenes pudieran encontrar apoyo y orientación. El proyecto busca ofrecerles un lugar seguro donde expresar sus preocupaciones, descubrir sus habilidades y recuperar la confianza en ellos mismos y en su entorno.
+        Con sede en Alcalá de Henares, en el barrio del Ensanche, y con alcance virtual para llegar a más personas, la fundación organiza terapias grupales, talleres creativos, mentorías, actividades deportivas y excursiones. Todo está pensado para ayudar a los jóvenes a superar sus desafíos, sentirse valorados y formar lazos significativos en un entorno inclusivo y respetuoso.
+    </p>
+    <h3 class="w3-center">Misión, Visión y Valores</h3>
+    <p>La misión o propósito de nuestro proyecto es  acompañar a todos esos adolescentes y jóvenes que se sienten abandonados/defraudados por el sistema y/o la sociedad. Porque es un problema que ha existido a lo largo de la historia y al que nunca se le ha puesto una solución.
+        Nuestra visión es que el mayor número de personas se sienta apoyada, respaldada y encuentre una nueva manera de ver al sistema y a la sociedad. Pretendemos ser una organización transformadora, que favorezca una captación más inclusiva, justa y esperanzadora, donde cada individuo pueda reconocer su valor, accediendo a oportunidades equitativas y contribuyendo a una comunidad más colaborativa. Pretendemos generar un cambio profundo en cómo las personas se relacionan entre sí así como con las estructuras sociales, ofreciendo respaldo integral y creando puentes hacia una sociedad más solidaria, equitativa y participativa.</p>
+    <p>Los valores de nuestra entidad son: Empatía, comprendión, respeto, inclusión, confianza y esperanza.</p>
+    <h3 class="w3-center">Transparencia</h3>
+    <p>Nuestra asociación está profundamente comprometida con la transparencia en todas sus actividades, especialmente en lo referente al manejo de los recursos y la comunicación con los miembros y la comunidad. Con este propósito, llevamos a cabo diversas acciones para garantizar que todas las personas interesadas puedan acceder a la información de manera clara y participar activamente en nuestras iniciativas.
+
+        En primer lugar, cada año presentamos los presupuestos y las auditorías de cuentas anuales, lo que permite dar claridad sobre el manejo de los fondos que recibimos. Durante esta presentación, explicamos de forma detallada los ingresos obtenidos a través de donaciones, subvenciones, eventos y otras fuentes, así como el desglose de los gastos realizados. Contamos con la colaboración de auditores externos independientes para validar nuestras cuentas, lo que refuerza la confianza de la comunidad en nuestra gestión. Estos informes están siempre disponibles para consulta por parte de los socios.
+        </p>
+        <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-user w3-margin-right"></i>nuestros valores</b></p><br>
+        <img src="imagenes/Captura de pantalla 2024-12-10 154411.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Además, organizamos jornadas de puertas abiertas  dos veces al año, con el objetivo de fortalecer la comunicación y la cercanía con nuestros socios, colaboradores y la comunidad. Durante estas jornadas, ofrecemos un recorrido por nuestras instalaciones, donde los asistentes pueden conocer de primera mano nuestro centro y su funcionamiento. Asimismo, presentamos un informe financiero en el que resumimos el dinero recaudado y cómo ha sido utilizado, además de compartir los logros y avances que hemos alcanzado. Estos encuentros son también una oportunidad para abrir espacios de diálogo, resolver dudas y recoger ideas de los asistentes.
+            Para fomentar aún más la participación activa, hemos implementado dos buzones públicos: uno de sugerencias y otro de dudas. El buzón de sugerencias está destinado a recoger propuestas, ideas y comentarios que puedan contribuir al desarrollo de la asociación. Estas propuestas se revisan cuidadosamente y, en su caso, se integran en nuestras actividades. Por otro lado, el buzón de dudas permite a cualquier persona plantear preguntas sobre aspectos administrativos, financieros o de funcionamiento de la asociación. Nos esforzamos por responder estas consultas de manera clara y en el menor tiempo posible.
+            
+            Finalmente, para garantizar el acceso a la información de manera continua, publicamos informes periódicos sobre nuestras actividades y resultados. Estos documentos se distribuyen entre los socios y también están disponibles en nuestra página web, asegurando su accesibilidad en cualquier momento. Además, utilizamos nuestras redes sociales para comunicar logros destacados y convocatorias importantes, manteniendo así un flujo constante de comunicación.
+            
+            Con estas acciones, buscamos no solo cumplir con nuestro compromiso de transparencia, sino también promover una cultura de confianza, participación y rendición de cuentas que beneficie a toda la comunidad.
+            
+            </p>
+        </div>
+    </div>
+    <h3 class="w3-center">Actividades</h3>
+    <p>Nuestro objetivo principal es proporcionar un espacio seguro donde puedan expresarse, desarrollar sus habilidades y superar los desafíos que enfrentan, especialmente aquellos derivados de la sensación de abandono e incomprensión por parte del sistema y la sociedad. A través de talleres, mentorías, terapia grupal, actividades deportivas y excursiones, buscamos mejorar su autoestima e inclusión social.
+
+        También organizamos excursiones para promover la convivencia y, si los recursos lo permiten, realizaremos un viaje anual de aproximadamente dos noches. Además, contamos con un programa deportivo de 4 horas semanales, del cual los participantes deben cumplir al menos la mitad, fomentando así un estilo de vida saludable.
+        
+        
+        Este enfoque multidisciplinario tiene como fin fortalecer la autoestima, las habilidades sociales y las redes de apoyo de los jóvenes, brindándoles un espacio seguro donde puedan crecer y desarrollarse tanto a nivel personal como social. Con ello, buscamos ayudarles a superar los desafíos que enfrentan y reducir el riesgo de exclusión social.
+        Con sede en Alcalá de Henares, en el barrio del Ensanche, y con alcance virtual para llegar a más personas, la fundación organiza terapias grupales, talleres creativos, mentorías, actividades deportivas y excursiones. Todo está pensado para ayudar a los jóvenes a superar sus desafíos, sentirse valorados y formar lazos significativos en un entorno inclusivo y respetuoso.
+    </p>
+    <p class="w3-large w3-center w3-padding-16">Nuestros datos:</p>
+    <p class="w3-wide"><i class="fas fa-book"></i>Casos judiciales resueltos en 2023</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-laptop"></i>Jovenes reinsertados en el sistema educativo</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-user"></i>Permanencia de socios</p>
+    <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+    </div>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Actividades
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">50+</span><br>
+        Proyectos realizados
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Casos judiciales
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">600+</span><br>
+        Personas afiliadas
+    </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">EQUIPO</span>
+    </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">Nosotros</h3>
+    <p class="w3-center"><em>Nuestro equipo esta constituido por:<br> seis Educadores Sociales</em></p><br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+        <img src="imagenes/Screenshot_20241209_150120_Gallery.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Renata">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="imagenes/IMG-20241209-WA0012.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Marcos">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="imagenes/IMG-20241209-WA0017.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gina">
+        </div>
+
+
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+        <img src="imagenes/IMG-20241209-WA0018.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Laura">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="imagenes/IMG-20241209-WA0020.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Maria">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="imagenes/IMG-20241209-WA0021.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Laura">
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
+    </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">Contacto</h3>
+    <p class="w3-center"><em>Estamos aqui para ayudarte!</em></p>
+
+    <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+        <img src="imagenes/cupp.JPG" class="w3-image w3-round" style="width:100%">
+        </div>
+        <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Alcala de Henares, ES<br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Tel: 918 89 12 54<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: AmanecerHESIA@mail.com<br>
+        </div>
+        <p>Si necesitas ayuda, escríbenos :</p>
+        <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+            </div>
+            <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
+            <button class="w3-button w3-black w3-right w3-section" type="submit">
+                <i class="fa fa-paper-plane"></i> Enviar
+            </button>
+        </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Renata</a></p>
+</footer>
+    
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+    }
+
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+</body>
+</html>
